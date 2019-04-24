@@ -24,3 +24,7 @@
 ./bin/rails g model Post title:string content:text
 ./bin/rails g model Comment name:string comment:text post_id:integer
 ```
+
+
+## resources
+- https://web-crunch.com/lets-build-with-ruby-on-rails-blog-with-comments/
