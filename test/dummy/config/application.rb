@@ -3,7 +3,7 @@ require_relative 'boot'
 require 'rails/all'
 
 Bundler.require(*Rails.groups)
-require "blog"
+require "rails_blog"
 
 module Dummy
   class Application < Rails::Application

@@ -1,4 +1,4 @@
-# blog
+# rails_blog
 > Blog for rails.
 
 ## installation

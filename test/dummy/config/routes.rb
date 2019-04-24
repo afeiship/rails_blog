@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  mount Blog::Engine => "/blog"
+  mount RailsBlog::Engine => "/rails_blog"
 end

@@ -1,5 +1,2 @@
-Blog::Engine.routes.draw do
-  resources :posts do
-    resources :comments, only: [:create, :show]
-  end
+RailsBlog::Engine.routes.draw do
 end
