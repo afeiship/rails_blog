@@ -1,0 +1,15 @@
+<h2>Posts show</h2>
+<ul>
+    <li><strong>Title:</strong><span><%= @post.title %></span></li>
+    <li><strong>Content:</strong><span><%= @post.content %></span></li>
+    <li>
+        <h3>New comment</h3>
+        <%= form_with(model: [@post, @post.comments.build], local: true ) do |form| %>
+        <p>
+            <%= form.label :text %><br>
+            <%= form.text_area :text %>
+        </p>
+        <%= form.submit %>
+        <% end %>
+    </li>
+</ul>
