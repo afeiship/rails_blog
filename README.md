@@ -4,13 +4,17 @@
 ## model
 > The users table fileds.
 
-### Post
+1. Post
+> 文章表
+
 | field   | type   | length | description |
 | ------- | ------ | ------ | ----------- |
 | title   | string | -      | 文章的标题  |
 | content | text   | -      | 文章的内容  |
 
-### Comment
+2. Comment
+> 针对文章的评论表。 
+
 | field   | type   | length | description |
 | ------- | ------ | ------ | ----------- |
 | name    | string | -      | 评论的标题  |
