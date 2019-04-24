@@ -1,6 +1,17 @@
 # blog
 > Blog for rails.
 
+## installation
+> Add this line to your application's Gemfile:
+
+```ruby
+# Gemfile in github:
+gem 'rails_blog', git: 'https://github.com/afeiship/rails_blog'
+
+# Debug in local:
+gem 'rails_blog', path: '/Users/feizheng/github/rails_blog'
+```
+
 ## model
 > The users table fileds.
 
