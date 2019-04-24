@@ -4,8 +4,7 @@ class RailsBlog::InstallGenerator < Rails::Generators::Base
   desc "Configure necessary files to use RailsBlog"
 
   def copy_views
-    root = RailsBlog.app_root
-    directory "#{root}/app/views", "app/views"
+    directory "#{RailsBlog.app_root}/app/views", "app/views"
   end
 
   def generate_model
